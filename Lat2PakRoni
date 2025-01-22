@@ -1,0 +1,14 @@
+package com.belajar;
+
+public class Lat2PakRoni {
+    public static void main(String[] args) {
+        int bilangan = 80;
+
+        // Mengecek apakah bilangan genap atau ganjil
+        if (bilangan % 2 == 0) {
+            System.out.println(bilangan + " adalah bilangan genap.");
+        } else {
+            System.out.println(bilangan + " adalah bilangan ganjil.");
+        }
+    }
+}
